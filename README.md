@@ -12,7 +12,7 @@
 
 **4. Step:** run these commands: (remember to have git installed in your pc.)
 ```
-git clone 
+git clone https://github.com/BMmarci1234/USO-Bot
 npm init -y
 npm install discord.js discord-api-rest sqlite3
 npm install -g pm2
