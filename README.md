@@ -15,9 +15,11 @@
 git clone 
 npm init -y
 npm install discord.js discord-api-rest sqlite3
+npm install -g pm2
 node syncdb.js
 node deploy-commands.js
 node index.js
+pm2 start index.js --name "USO-BOT"
 ```
 
 **If you have any issues contact oxobubble!!**
